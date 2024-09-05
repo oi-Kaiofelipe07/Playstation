@@ -1,0 +1,80 @@
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Exo 2', sans-serif;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    color: #0a0131;
+    font-family: 'Merriweather', serif;
+    font-size: 20px; /* Tamanho de fonte legível */
+    margin-bottom: 20px;
+    text-align: justify; /* Justifica o texto para alinhamento suave */
+}
+
+.card-text{
+    color: #fff;
+}
+
+section{
+    height: 100%;
+    background-color: #ccc;
+    padding-top: 70px;
+}
+
+header{
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #181b4ff5;
+    z-index: 1000; 
+}
+main{
+    z-index: 500; 
+}
+
+#carousel-exemplo{
+    width: 100%;
+    height: 100%;
+    flex: 1 0 100%;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .carousel-caption {
+        display: none; /* Esconde legendas no mobile para melhorar a visualização */
+    }
+
+    section {
+        padding: 50px 10px;
+    }
+
+    form {
+        padding: 0 15px;
+    }
+}
